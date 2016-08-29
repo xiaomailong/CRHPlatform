@@ -86,28 +86,117 @@ public class DocumentBean {
     private String xltx0  = "";
     private String xltx1  = "";
     private double xltx2  = 0;
-    private String xltx3  = "";
-    private String xltx4  = "";
-    private String xltx5  = "";
-    private String xltx6  = "";
-    private String xltx7  = "";
-    private String xltx8  = "";
-    private String xltx9  = "";
-    private String xltx10 = "";
-    private String xltx11 = "";
-    private String xltx12 = "";
-    private String xltx13 = "";
-    private String xltx14 = "";
-    private String xltx15 = "";
-    private String xltx16 = "";
-    private String xltx17 = "";
-    private String xltx18 = "";
-    private String xltx19 = "";
-    private String xltx20 = "";
-    private String xltx21 = "";
-    private String xltx22 = "";
-    private String xltx23 = "";
-    private String xltx24 = "";
+
+    //Í£Õ¾Ãû
+    private String tz0    = "";
+    private String tz1    = "";
+    private String tz2    = "";
+    private String tz3    = "";
+    private String tz4    = "";
+    private String tz5    = "";
+    private String tz6    = "";
+    private String tz7    = "";
+    private String tz8    = "";
+    private String tz9    = "";
+
+    private String tz10   = "";
+    private String tz11   = "";
+    private String tz12   = "";
+    private String tz13   = "";
+    private String tz14   = "";
+    private String tz15   = "";
+    private String tz16   = "";
+    private String tz17   = "";
+    private String tz18   = "";
+    private String tz19   = "";
+
+    private String tz20   = "";
+    private String tz21   = "";
+    private String tz22   = "";
+    private String tz23   = "";
+    private String tz24   = "";
+    private String tz25   = "";
+    private String tz26   = "";
+    private String tz27   = "";
+    private String tz28   = "";
+    private String tz29   = "";
+
+    private String tz30   = "";
+    private String tz31   = "";
+    private String tz32   = "";
+    private String tz33   = "";
+    private String tz34   = "";
+    private String tz35   = "";
+    private String tz36   = "";
+    private String tz37   = "";
+    private String tz38   = "";
+    private String tz39   = "";
+
+    private String tz40   = "";
+    private String tz41   = "";
+    private String tz42   = "";
+    private String tz43   = "";
+    private String tz44   = "";
+    private String tz45   = "";
+    private String tz46   = "";
+    private String tz47   = "";
+    private String tz48   = "";
+    private String tz49   = "";
+
+    private String tz50   = "";
+    private String tz51   = "";
+    private String tz52   = "";
+    private String tz53   = "";
+    private String tz54   = "";
+    private String tz55   = "";
+    private String tz56   = "";
+    private String tz57   = "";
+    private String tz58   = "";
+    private String tz59   = "";
+
+    private String tz60   = "";
+    private String tz61   = "";
+    private String tz62   = "";
+    private String tz63   = "";
+    private String tz64   = "";
+    private String tz65   = "";
+    private String tz66   = "";
+    private String tz67   = "";
+    private String tz68   = "";
+    private String tz69   = "";
+
+    private String tz70   = "";
+    private String tz71   = "";
+    private String tz72   = "";
+    private String tz73   = "";
+    private String tz74   = "";
+    private String tz75   = "";
+    private String tz76   = "";
+    private String tz77   = "";
+    private String tz78   = "";
+    private String tz79   = "";
+
+    private String tz80   = "";
+    private String tz81   = "";
+    private String tz82   = "";
+    private String tz83   = "";
+    private String tz84   = "";
+    private String tz85   = "";
+    private String tz86   = "";
+    private String tz87   = "";
+    private String tz88   = "";
+    private String tz89   = "";
+
+    private String tz90   = "";
+    private String tz91   = "";
+    private String tz92   = "";
+    private String tz93   = "";
+    private String tz94   = "";
+    private String tz95   = "";
+    private String tz96   = "";
+    private String tz97   = "";
+    private String tz98   = "";
+    private String tz99   = "";
 
     private double qytx0  = 0;
     private double qytx1  = 0;
@@ -757,30 +846,6 @@ public class DocumentBean {
         this.xltx2 = xltx2;
     }
 
-    public String getXltx3() {
-        return xltx3;
-    }
-
-    public void setXltx3(String xltx3) {
-        this.xltx3 = xltx3;
-    }
-
-    public String getXltx4() {
-        return xltx4;
-    }
-
-    public void setXltx4(String xltx4) {
-        this.xltx4 = xltx4;
-    }
-
-    public String getXltx5() {
-        return xltx5;
-    }
-
-    public void setXltx5(String xltx5) {
-        this.xltx5 = xltx5;
-    }
-
     public double getQytx0() {
         return qytx0;
     }
@@ -845,156 +910,804 @@ public class DocumentBean {
         this.zdtx3 = zdtx3;
     }
 
-    public String getXltx6() {
-        return xltx6;
+    public String getTz0() {
+        return tz0;
     }
 
-    public void setXltx6(String xltx6) {
-        this.xltx6 = xltx6;
+    public void setTz0(String tz0) {
+        this.tz0 = tz0;
     }
 
-    public String getXltx7() {
-        return xltx7;
+    public String getTz1() {
+        return tz1;
     }
 
-    public void setXltx7(String xltx7) {
-        this.xltx7 = xltx7;
+    public void setTz1(String tz1) {
+        this.tz1 = tz1;
     }
 
-    public String getXltx8() {
-        return xltx8;
+    public String getTz2() {
+        return tz2;
     }
 
-    public void setXltx8(String xltx8) {
-        this.xltx8 = xltx8;
+    public void setTz2(String tz2) {
+        this.tz2 = tz2;
     }
 
-    public String getXltx9() {
-        return xltx9;
+    public String getTz3() {
+        return tz3;
     }
 
-    public void setXltx9(String xltx9) {
-        this.xltx9 = xltx9;
+    public void setTz3(String tz3) {
+        this.tz3 = tz3;
     }
 
-    public String getXltx10() {
-        return xltx10;
+    public String getTz4() {
+        return tz4;
     }
 
-    public void setXltx10(String xltx10) {
-        this.xltx10 = xltx10;
+    public void setTz4(String tz4) {
+        this.tz4 = tz4;
     }
 
-    public String getXltx11() {
-        return xltx11;
+    public String getTz5() {
+        return tz5;
     }
 
-    public void setXltx11(String xltx11) {
-        this.xltx11 = xltx11;
+    public void setTz5(String tz5) {
+        this.tz5 = tz5;
     }
 
-    public String getXltx12() {
-        return xltx12;
+    public String getTz6() {
+        return tz6;
     }
 
-    public void setXltx12(String xltx12) {
-        this.xltx12 = xltx12;
+    public void setTz6(String tz6) {
+        this.tz6 = tz6;
     }
 
-    public String getXltx13() {
-        return xltx13;
+    public String getTz7() {
+        return tz7;
     }
 
-    public void setXltx13(String xltx13) {
-        this.xltx13 = xltx13;
+    public void setTz7(String tz7) {
+        this.tz7 = tz7;
     }
 
-    public String getXltx14() {
-        return xltx14;
+    public String getTz8() {
+        return tz8;
     }
 
-    public void setXltx14(String xltx14) {
-        this.xltx14 = xltx14;
+    public void setTz8(String tz8) {
+        this.tz8 = tz8;
     }
 
-    public String getXltx15() {
-        return xltx15;
+    public String getTz9() {
+        return tz9;
     }
 
-    public void setXltx15(String xltx15) {
-        this.xltx15 = xltx15;
+    public void setTz9(String tz9) {
+        this.tz9 = tz9;
     }
 
-    public String getXltx16() {
-        return xltx16;
+    public String getTz10() {
+        return tz10;
     }
 
-    public void setXltx16(String xltx16) {
-        this.xltx16 = xltx16;
+    public void setTz10(String tz10) {
+        this.tz10 = tz10;
     }
 
-    public String getXltx17() {
-        return xltx17;
+    public String getTz11() {
+        return tz11;
     }
 
-    public void setXltx17(String xltx17) {
-        this.xltx17 = xltx17;
+    public void setTz11(String tz11) {
+        this.tz11 = tz11;
     }
 
-    public String getXltx18() {
-        return xltx18;
+    public String getTz12() {
+        return tz12;
     }
 
-    public void setXltx18(String xltx18) {
-        this.xltx18 = xltx18;
+    public void setTz12(String tz12) {
+        this.tz12 = tz12;
     }
 
-    public String getXltx19() {
-        return xltx19;
+    public String getTz13() {
+        return tz13;
     }
 
-    public void setXltx19(String xltx19) {
-        this.xltx19 = xltx19;
+    public void setTz13(String tz13) {
+        this.tz13 = tz13;
     }
 
-    public String getXltx20() {
-        return xltx20;
+    public String getTz14() {
+        return tz14;
     }
 
-    public void setXltx20(String xltx20) {
-        this.xltx20 = xltx20;
+    public void setTz14(String tz14) {
+        this.tz14 = tz14;
     }
 
-    public String getXltx21() {
-        return xltx21;
+    public String getTz15() {
+        return tz15;
     }
 
-    public void setXltx21(String xltx21) {
-        this.xltx21 = xltx21;
+    public void setTz15(String tz15) {
+        this.tz15 = tz15;
     }
 
-    public String getXltx22() {
-        return xltx22;
+    public String getTz16() {
+        return tz16;
     }
 
-    public void setXltx22(String xltx22) {
-        this.xltx22 = xltx22;
+    public void setTz16(String tz16) {
+        this.tz16 = tz16;
     }
 
-    public String getXltx23() {
-        return xltx23;
+    public String getTz17() {
+        return tz17;
     }
 
-    public void setXltx23(String xltx23) {
-        this.xltx23 = xltx23;
+    public void setTz17(String tz17) {
+        this.tz17 = tz17;
     }
 
-    public String getXltx24() {
-        return xltx24;
+    public String getTz18() {
+        return tz18;
     }
 
-    public void setXltx24(String xltx24) {
-        this.xltx24 = xltx24;
+    public void setTz18(String tz18) {
+        this.tz18 = tz18;
+    }
+
+    public String getTz19() {
+        return tz19;
+    }
+
+    public void setTz19(String tz19) {
+        this.tz19 = tz19;
+    }
+
+    public String getTz20() {
+        return tz20;
+    }
+
+    public void setTz20(String tz20) {
+        this.tz20 = tz20;
+    }
+
+    public String getTz21() {
+        return tz21;
+    }
+
+    public void setTz21(String tz21) {
+        this.tz21 = tz21;
+    }
+
+    public String getTz22() {
+        return tz22;
+    }
+
+    public void setTz22(String tz22) {
+        this.tz22 = tz22;
+    }
+
+    public String getTz23() {
+        return tz23;
+    }
+
+    public void setTz23(String tz23) {
+        this.tz23 = tz23;
+    }
+
+    public String getTz24() {
+        return tz24;
+    }
+
+    public void setTz24(String tz24) {
+        this.tz24 = tz24;
+    }
+
+    public String getTz25() {
+        return tz25;
+    }
+
+    public void setTz25(String tz25) {
+        this.tz25 = tz25;
+    }
+
+    public String getTz26() {
+        return tz26;
+    }
+
+    public void setTz26(String tz26) {
+        this.tz26 = tz26;
+    }
+
+    public String getTz27() {
+        return tz27;
+    }
+
+    public void setTz27(String tz27) {
+        this.tz27 = tz27;
+    }
+
+    public String getTz28() {
+        return tz28;
+    }
+
+    public void setTz28(String tz28) {
+        this.tz28 = tz28;
+    }
+
+    public String getTz29() {
+        return tz29;
+    }
+
+    public void setTz29(String tz29) {
+        this.tz29 = tz29;
+    }
+
+    public String getTz30() {
+        return tz30;
+    }
+
+    public void setTz30(String tz30) {
+        this.tz30 = tz30;
+    }
+
+    public String getTz31() {
+        return tz31;
+    }
+
+    public void setTz31(String tz31) {
+        this.tz31 = tz31;
+    }
+
+    public String getTz32() {
+        return tz32;
+    }
+
+    public void setTz32(String tz32) {
+        this.tz32 = tz32;
+    }
+
+    public String getTz33() {
+        return tz33;
+    }
+
+    public void setTz33(String tz33) {
+        this.tz33 = tz33;
+    }
+
+    public String getTz34() {
+        return tz34;
+    }
+
+    public void setTz34(String tz34) {
+        this.tz34 = tz34;
+    }
+
+    public String getTz35() {
+        return tz35;
+    }
+
+    public void setTz35(String tz35) {
+        this.tz35 = tz35;
+    }
+
+    public String getTz36() {
+        return tz36;
+    }
+
+    public void setTz36(String tz36) {
+        this.tz36 = tz36;
+    }
+
+    public String getTz37() {
+        return tz37;
+    }
+
+    public void setTz37(String tz37) {
+        this.tz37 = tz37;
+    }
+
+    public String getTz38() {
+        return tz38;
+    }
+
+    public void setTz38(String tz38) {
+        this.tz38 = tz38;
+    }
+
+    public String getTz39() {
+        return tz39;
+    }
+
+    public void setTz39(String tz39) {
+        this.tz39 = tz39;
+    }
+
+    public String getTz40() {
+        return tz40;
+    }
+
+    public void setTz40(String tz40) {
+        this.tz40 = tz40;
+    }
+
+    public String getTz41() {
+        return tz41;
+    }
+
+    public void setTz41(String tz41) {
+        this.tz41 = tz41;
+    }
+
+    public String getTz42() {
+        return tz42;
+    }
+
+    public void setTz42(String tz42) {
+        this.tz42 = tz42;
+    }
+
+    public String getTz43() {
+        return tz43;
+    }
+
+    public void setTz43(String tz43) {
+        this.tz43 = tz43;
+    }
+
+    public String getTz44() {
+        return tz44;
+    }
+
+    public void setTz44(String tz44) {
+        this.tz44 = tz44;
+    }
+
+    public String getTz45() {
+        return tz45;
+    }
+
+    public void setTz45(String tz45) {
+        this.tz45 = tz45;
+    }
+
+    public String getTz46() {
+        return tz46;
+    }
+
+    public void setTz46(String tz46) {
+        this.tz46 = tz46;
+    }
+
+    public String getTz47() {
+        return tz47;
+    }
+
+    public void setTz47(String tz47) {
+        this.tz47 = tz47;
+    }
+
+    public String getTz48() {
+        return tz48;
+    }
+
+    public void setTz48(String tz48) {
+        this.tz48 = tz48;
+    }
+
+    public String getTz49() {
+        return tz49;
+    }
+
+    public void setTz49(String tz49) {
+        this.tz49 = tz49;
+    }
+
+    public String getTz50() {
+        return tz50;
+    }
+
+    public void setTz50(String tz50) {
+        this.tz50 = tz50;
+    }
+
+    public String getTz51() {
+        return tz51;
+    }
+
+    public void setTz51(String tz51) {
+        this.tz51 = tz51;
+    }
+
+    public String getTz52() {
+        return tz52;
+    }
+
+    public void setTz52(String tz52) {
+        this.tz52 = tz52;
+    }
+
+    public String getTz53() {
+        return tz53;
+    }
+
+    public void setTz53(String tz53) {
+        this.tz53 = tz53;
+    }
+
+    public String getTz54() {
+        return tz54;
+    }
+
+    public void setTz54(String tz54) {
+        this.tz54 = tz54;
+    }
+
+    public String getTz55() {
+        return tz55;
+    }
+
+    public void setTz55(String tz55) {
+        this.tz55 = tz55;
+    }
+
+    public String getTz56() {
+        return tz56;
+    }
+
+    public void setTz56(String tz56) {
+        this.tz56 = tz56;
+    }
+
+    public String getTz57() {
+        return tz57;
+    }
+
+    public void setTz57(String tz57) {
+        this.tz57 = tz57;
+    }
+
+    public String getTz58() {
+        return tz58;
+    }
+
+    public void setTz58(String tz58) {
+        this.tz58 = tz58;
+    }
+
+    public String getTz59() {
+        return tz59;
+    }
+
+    public void setTz59(String tz59) {
+        this.tz59 = tz59;
+    }
+
+    public String getTz60() {
+        return tz60;
+    }
+
+    public void setTz60(String tz60) {
+        this.tz60 = tz60;
+    }
+
+    public String getTz61() {
+        return tz61;
+    }
+
+    public void setTz61(String tz61) {
+        this.tz61 = tz61;
+    }
+
+    public String getTz62() {
+        return tz62;
+    }
+
+    public void setTz62(String tz62) {
+        this.tz62 = tz62;
+    }
+
+    public String getTz63() {
+        return tz63;
+    }
+
+    public void setTz63(String tz63) {
+        this.tz63 = tz63;
+    }
+
+    public String getTz64() {
+        return tz64;
+    }
+
+    public void setTz64(String tz64) {
+        this.tz64 = tz64;
+    }
+
+    public String getTz65() {
+        return tz65;
+    }
+
+    public void setTz65(String tz65) {
+        this.tz65 = tz65;
+    }
+
+    public String getTz66() {
+        return tz66;
+    }
+
+    public void setTz66(String tz66) {
+        this.tz66 = tz66;
+    }
+
+    public String getTz67() {
+        return tz67;
+    }
+
+    public void setTz67(String tz67) {
+        this.tz67 = tz67;
+    }
+
+    public String getTz68() {
+        return tz68;
+    }
+
+    public void setTz68(String tz68) {
+        this.tz68 = tz68;
+    }
+
+    public String getTz69() {
+        return tz69;
+    }
+
+    public void setTz69(String tz69) {
+        this.tz69 = tz69;
+    }
+
+    public String getTz70() {
+        return tz70;
+    }
+
+    public void setTz70(String tz70) {
+        this.tz70 = tz70;
+    }
+
+    public String getTz71() {
+        return tz71;
+    }
+
+    public void setTz71(String tz71) {
+        this.tz71 = tz71;
+    }
+
+    public String getTz72() {
+        return tz72;
+    }
+
+    public void setTz72(String tz72) {
+        this.tz72 = tz72;
+    }
+
+    public String getTz73() {
+        return tz73;
+    }
+
+    public void setTz73(String tz73) {
+        this.tz73 = tz73;
+    }
+
+    public String getTz74() {
+        return tz74;
+    }
+
+    public void setTz74(String tz74) {
+        this.tz74 = tz74;
+    }
+
+    public String getTz75() {
+        return tz75;
+    }
+
+    public void setTz75(String tz75) {
+        this.tz75 = tz75;
+    }
+
+    public String getTz76() {
+        return tz76;
+    }
+
+    public void setTz76(String tz76) {
+        this.tz76 = tz76;
+    }
+
+    public String getTz77() {
+        return tz77;
+    }
+
+    public void setTz77(String tz77) {
+        this.tz77 = tz77;
+    }
+
+    public String getTz78() {
+        return tz78;
+    }
+
+    public void setTz78(String tz78) {
+        this.tz78 = tz78;
+    }
+
+    public String getTz79() {
+        return tz79;
+    }
+
+    public void setTz79(String tz79) {
+        this.tz79 = tz79;
+    }
+
+    public String getTz80() {
+        return tz80;
+    }
+
+    public void setTz80(String tz80) {
+        this.tz80 = tz80;
+    }
+
+    public String getTz81() {
+        return tz81;
+    }
+
+    public void setTz81(String tz81) {
+        this.tz81 = tz81;
+    }
+
+    public String getTz82() {
+        return tz82;
+    }
+
+    public void setTz82(String tz82) {
+        this.tz82 = tz82;
+    }
+
+    public String getTz83() {
+        return tz83;
+    }
+
+    public void setTz83(String tz83) {
+        this.tz83 = tz83;
+    }
+
+    public String getTz84() {
+        return tz84;
+    }
+
+    public void setTz84(String tz84) {
+        this.tz84 = tz84;
+    }
+
+    public String getTz85() {
+        return tz85;
+    }
+
+    public void setTz85(String tz85) {
+        this.tz85 = tz85;
+    }
+
+    public String getTz86() {
+        return tz86;
+    }
+
+    public void setTz86(String tz86) {
+        this.tz86 = tz86;
+    }
+
+    public String getTz87() {
+        return tz87;
+    }
+
+    public void setTz87(String tz87) {
+        this.tz87 = tz87;
+    }
+
+    public String getTz88() {
+        return tz88;
+    }
+
+    public void setTz88(String tz88) {
+        this.tz88 = tz88;
+    }
+
+    public String getTz89() {
+        return tz89;
+    }
+
+    public void setTz89(String tz89) {
+        this.tz89 = tz89;
+    }
+
+    public String getTz90() {
+        return tz90;
+    }
+
+    public void setTz90(String tz90) {
+        this.tz90 = tz90;
+    }
+
+    public String getTz91() {
+        return tz91;
+    }
+
+    public void setTz91(String tz91) {
+        this.tz91 = tz91;
+    }
+
+    public String getTz92() {
+        return tz92;
+    }
+
+    public void setTz92(String tz92) {
+        this.tz92 = tz92;
+    }
+
+    public String getTz93() {
+        return tz93;
+    }
+
+    public void setTz93(String tz93) {
+        this.tz93 = tz93;
+    }
+
+    public String getTz94() {
+        return tz94;
+    }
+
+    public void setTz94(String tz94) {
+        this.tz94 = tz94;
+    }
+
+    public String getTz95() {
+        return tz95;
+    }
+
+    public void setTz95(String tz95) {
+        this.tz95 = tz95;
+    }
+
+    public String getTz96() {
+        return tz96;
+    }
+
+    public void setTz96(String tz96) {
+        this.tz96 = tz96;
+    }
+
+    public String getTz97() {
+        return tz97;
+    }
+
+    public void setTz97(String tz97) {
+        this.tz97 = tz97;
+    }
+
+    public String getTz98() {
+        return tz98;
+    }
+
+    public void setTz98(String tz98) {
+        this.tz98 = tz98;
+    }
+
+    public String getTz99() {
+        return tz99;
+    }
+
+    public void setTz99(String tz99) {
+        this.tz99 = tz99;
     }
 
 }

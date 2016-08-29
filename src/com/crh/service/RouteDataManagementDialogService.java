@@ -19,7 +19,9 @@ import com.crh2.service.DataService;
  */
 public class RouteDataManagementDialogService {
 
-    private static SQLHelper sqlHelper = new SQLHelper();
+    private static SQLHelper sqlHelper         = new SQLHelper();
+
+    private static final int STOP_STATION_SIZE = 50;
 
     /**
      * 保存线路名称
@@ -262,7 +264,7 @@ public class RouteDataManagementDialogService {
     }
 
     public static StationStoptimePair[] getStationStoptimePairArray(String routeName, String trainNum) {
-        StationStoptimePair[] sspArray = new StationStoptimePair[14];
+        StationStoptimePair[] sspArray = new StationStoptimePair[STOP_STATION_SIZE];
         for (int i = 0; i < sspArray.length; i++) {
             sspArray[i] = new StationStoptimePair();
         }
