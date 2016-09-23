@@ -128,7 +128,7 @@ public class TrainRunParametersCal {
             Si = SnBpMinTime.calShift(currentSpeed, lastSpeed, Si);
             i++;
             avgAcc = currentSpeed / (3.6 * i);
-            power += 0.85 * BrakeForceMinTime.getComBrakingForce(currentSpeed) * (Si - S);//计算阻力做功
+            power += BrakeForceMinTime.getComBrakingForce(currentSpeed) * (Si - S);//计算阻力做功
             lastSpeed = currentSpeed;
             S = Si;
             if (currentSpeed >= speedLimit) {

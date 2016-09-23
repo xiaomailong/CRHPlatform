@@ -129,7 +129,7 @@ public class ReverseRunDataCalculatorMinTime {
             tractionGridCurrent = comBrakeGridCurrent;
             comBrakePower += comBrakeForce * (Si - S);//计算阻力做功
             elecBrakePower += BrakeForceMinTime.getElecBrakeForce(currentSpeed) * (Si - S);
-            actualElecBrakeForcePower = globalActualElecBrakeForcePower + 0.85 * elecBrakePower;
+            actualElecBrakeForcePower = globalActualElecBrakeForcePower + elecBrakePower;
             lastSpeed = currentSpeed;
             S = Si;
             if (lastSpeed >= TrainAttribute.CRH_MAX_SPEED) {
