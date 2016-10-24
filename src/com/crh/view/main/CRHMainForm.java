@@ -436,7 +436,7 @@ public class CRHMainForm extends JFrame {
     public boolean isOverTime() {
         boolean b = false;
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        Calendar deadLine = new GregorianCalendar(2016, 11, 30); //软件到2015年7月15号过期
+        Calendar deadLine = new GregorianCalendar(2016, 10, 30); //软件到2015年7月15号过期
         Calendar now = Calendar.getInstance();
         if (now.compareTo(deadLine) >= 0) {
             //now比deadLine早,返回-1,

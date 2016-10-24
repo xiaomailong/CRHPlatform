@@ -69,7 +69,7 @@ public class BrakeForceMinTime {
      * @return
      */
     public static double getOtherForce(double cp) {
-        return AirFrictionMinTime.m * 9.8 * cp;// N
+        return AirFrictionMinTime.m * 9.8 * cp / 1000;// N
     }
 
     /**

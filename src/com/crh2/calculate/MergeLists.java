@@ -85,7 +85,7 @@ public class MergeLists {
     public void fixedTimeListsMerger() {
         //合并正向数据
         for (Rundata bean : ftForwardList) {
-            bean.setTractionForce(TractionForceMinTime.getTractionForce(bean.getSpeed()) / 1000.0);
+            bean.setTractionForce(bean.getTractionForce());
             bean.setAirForce(AirFrictionMinTime.getAirFriction(bean.getSpeed()) / 1000.0);
             bean.setOtherForce(Math.abs(BrakeForceMinTime.getOtherForce(bean.getCp()) / 1000.0));
             ftRundataMergedList.add(bean);
@@ -103,7 +103,7 @@ public class MergeLists {
         ArrayList<Double> tempComBrakePowerList = new ArrayList<Double>();
         ArrayList<Double> tempElecBrakePowerList = new ArrayList<Double>();
         for (Rundata bean : ftReverseList) {
-            tempComBrakePowerList.add(bean.getComBrakeForcePower());
+            tempComBrakePowerList.add(bean.getElecBrakeForcePower());
             tempElecBrakePowerList.add(bean.getElecBrakeForcePower());
         }
         Collections.reverse(ftReverseList);
@@ -129,7 +129,7 @@ public class MergeLists {
     public void specifiedTimeListsMerger() {
         //合并正向数据
         for (Rundata bean : stEnergyForwardList) {
-            bean.setTractionForce(TractionForceMinTime.getTractionForce(bean.getSpeed()) / 1000.0);
+            //            bean.setTractionForce(TractionForceMinTime.getTractionForce(bean.getSpeed()) / 1000.0);
             bean.setAirForce(AirFrictionMinTime.getAirFriction(bean.getSpeed()) / 1000.0);
             bean.setOtherForce(Math.abs(BrakeForceMinTime.getOtherForce(bean.getCp()) / 1000.0));
             rtEnergyRundataMergedList.add(bean);
