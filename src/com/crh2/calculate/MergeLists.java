@@ -85,7 +85,7 @@ public class MergeLists {
     public void fixedTimeListsMerger() {
         //合并正向数据
         for (Rundata bean : ftForwardList) {
-            bean.setTractionForce(bean.getTractionForce());
+            bean.setTractionForce(bean.getTractionForce() / 1000.0);
             bean.setAirForce(AirFrictionMinTime.getAirFriction(bean.getSpeed()) / 1000.0);
             bean.setOtherForce(Math.abs(BrakeForceMinTime.getOtherForce(bean.getCp()) / 1000.0));
             ftRundataMergedList.add(bean);

@@ -2,7 +2,6 @@ package com.crh.calculation.mintime.brakepoint;
 
 import java.util.ArrayList;
 
-import com.crh.calculation.mintime.AirFrictionMinTime;
 import com.crh.calculation.mintime.BrakeForceMinTime;
 import com.crh.calculation.mintime.NetCurrent;
 import com.crh2.calculate.TrainAttribute;
@@ -106,29 +105,20 @@ public class ReverseRunDataCalculatorMinTime {
         ArrayList<String> strList = new ArrayList<String>();//用于保存需要打印的数据
         double comBrakePower = 0;//综合阻力做功
         double elecBrakePower = 0;//电制动力
-        double comBrakeForce = 0, location = 0, tractionGridCurrent = 0, comBrakeGridCurrent = 0, acceleration = 0, actualElecBrakeForcePower = 0, g = 9.8;
+        double comBrakeForce = 0, location = 0, tractionGridCurrent = 0, comBrakeGridCurrent = 0, acceleration = 0, actualElecBrakeForcePower = 0;
         rundataBackBeansList = new ArrayList<Rundata>();
-        int isSpeedLimited = 0;
-        double elecBrakeForce = 0;//电制动力
         while (true) {
             location = station.getLocation() - Si;
             str = i + count + "		" + currentSpeed + "		" + Si + "		" + location + "		" + comBrakePower;
             this.saveRundataBackBeans(i + count, currentSpeed, Si, location, comBrakePower, elecBrakePower, cp, tractionGridCurrent, comBrakeGridCurrent,
                 acceleration, actualElecBrakeForcePower);
             currentSpeed = VnBpMinTime.calSpeed(currentSpeed, TrainAttribute.CRH_CAL_TIME_DIVISION, cp);
-            slopeCp = ReverseOtherResistance.bySlope(Si);
-            double[] paras = ReverseOtherResistance.byCurve(currentSpeed, Si);
+            slopeCp = ReverseOtherResistance.bySlope(location);
+            double[] paras = ReverseOtherResistance.byCurve(currentSpeed, location);
             currentSpeed = paras[0];
             curveCp = paras[1];
-            isSpeedLimited = (int) paras[2];
             cp = slopeCp + curveCp;
             Si = SnBpMinTime.calShift(currentSpeed, lastSpeed, Si);
-
-            if (isSpeedLimited == 0) {//正常情况
-                elecBrakeForce = BrakeForceMinTime.getElecBrakeForce(currentSpeed);
-            } else if (isSpeedLimited == 1) {//限速情况
-                elecBrakeForce = cp * AirFrictionMinTime.m * g / 1000000 + AirFrictionMinTime.getAirFriction(currentSpeed);
-            }
 
             strList.add(str);
 
@@ -138,9 +128,7 @@ public class ReverseRunDataCalculatorMinTime {
             comBrakeGridCurrent = netCurrent.getComBrakeForceNetCurrent(comBrakeForce, currentSpeed);
             tractionGridCurrent = comBrakeGridCurrent;
             comBrakePower += comBrakeForce * (Si - S);//计算阻力做功
-            elecBrakePower += elecBrakeForce * (Si - S) * 0.85;
-            System.out.println("Si=" + Si + ", isSpeedLimited=" + isSpeedLimited + ", location=" + location + ",currentSpeed=" + currentSpeed
-                               + ", elecBrakeForce=" + elecBrakeForce + ", elecBrakePower=" + elecBrakePower);
+            elecBrakePower += BrakeForceMinTime.getElecBrakeForce(currentSpeed) * (Si - S);
             actualElecBrakeForcePower = globalActualElecBrakeForcePower + elecBrakePower;
             lastSpeed = currentSpeed;
             S = Si;
@@ -153,4 +141,5 @@ public class ReverseRunDataCalculatorMinTime {
         //		WriteIntoTxt.writeIntoTxt(strList, "CRH_10.21_反向计算.txt");
         return rundataBackBeansList;
     }
+
 }
